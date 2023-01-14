@@ -1,0 +1,564 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url(img.zoltan1.png);
+  height: 900px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-left: 44px;
+  padding-right: 44px;
+  position: relative;
+  list-style: none;
+  background-size: cover;
+}
+
+
+.logo-left__style {
+  list-style-type: none;
+}
+.body._pc.logo-left__text > li:hover .logo-left__style {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0px, 0px);
+  pointer-events: all;
+}
+.motor {
+  position: absolute;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-self: center;
+}
+.motorsboat {
+  max-width: 100%;
+  padding-left: 360px;
+}
+.images {
+  max-width: 100%;
+  align-items: center;
+  padding-left: 480px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 211px;
+  height: 47px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin-right: 260px;
+  margin-left: auto;
+  background: none;
+  color: aliceblue;
+  border: 1px solid aliceblue;
+  margin-bottom: 45px;
+  margin-top: 75px;
+  
+}
+
+.photo {
+  padding-left: 12px;
+}
+
+.information-info {
+  list-style-type: none;
+  color: aliceblue;
+}
+@media (max-width:767px) {
+  .logo-left {
+    margin: 2px;
+  }
+  .motor {
+    padding-left: 13px;
+  }
+  .motorsboat {
+    padding-left: 34px;
+  }
+  .images {
+    padding-left: 119px;
+  }
+}
+/*Второй блок........................................................*/
+.info {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 250px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 23px;
+  color: #363636;
+}
+.info-photo {
+  margin-left: 150px;
+}
+@media (max-width:767px) {
+  .info-photo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0px;
+  }
+  .img_restangle {
+    background-size: 80%;
+  }
+}
+
+/*Третий блок "container-product"...........................................................*/
+.article {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 23px;
+  padding-top: 88px;
+  padding-bottom: 88px;
+  color: #363636;
+  margin-left: 250px;
+}
+.container-product {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 70px;
+}
+.item-photo {
+  background: #50626C;
+  display: flex;
+  align-items: center;
+  padding-left: 33px;
+  padding-top: 56px;
+  padding-right: 33px;
+  padding-bottom: 56px;
+}
+.text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #363636;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+}
+.article-photo {
+  padding-right: 38px;
+}
+.text-description-one {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #363636;
+  padding-bottom: 23px;
+}
+.site-description {
+  display: grid;
+  grid: gap;
+}
+.site-description {
+  display: flex;
+}
+.img-site-description {
+  padding-left: 25px;
+}
+.text-description-two {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #363636;
+  padding-bottom: 25px;
+  padding-top: 51px;
+}
+.site-description-thre {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #363636;
+  padding-bottom: 20px;
+}
+@media (max-width:767px) {
+  .container-product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+  .text-description {
+    display: none;
+  }
+  .item-photo {
+  padding-left: 50px;
+  padding-top: 80px;
+  padding-right: 50px;
+  padding-bottom: 80px;
+  }
+}
+/*article-boat............................................................*/
+
+.header-boat {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 23px;
+  color: #363636;
+  margin-top: 108px;
+  margin-left: 145px;
+}
+.smoll-article {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 23px;
+  color: #363636;
+  margin-left: 145px;
+  margin-right: 145px;
+  margin-bottom: 117px;
+  margin-top: 117px;
+  display: flex;
+  justify-content: center;
+}
+.photo-left {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  align-items: center;
+  padding: 20px 20px 30px 30px;
+  margin-right: 80px;
+  }
+  .photo-right {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  align-items: center;
+  padding: 7px 20px 20px;
+  }
+  .product {
+  font-size: 30px;
+  line-height: 36px;
+  color: #50626C;
+  }
+  .product-smoll {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #50626C;
+  }
+  .smoll-article-boat {
+  padding-top: 22px;
+  padding-left: 112px;
+  padding-bottom: 50px;
+  }
+  .smoll-article-boat-tho {
+  padding-top: 22px;
+  padding-left: 112px;
+  padding-bottom: 50px;
+  }
+  @media (max-width:767px) {
+    .article-boat {
+    text-align: center;
+    }
+    .smoll-article {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .photo-left {
+      box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
+      border-radius: 40px;
+      align-items: center;
+      padding: 40px 80px 60px;
+      margin-bottom: 60px;
+    } 
+    .product {
+      padding: 0px;
+      font-size: 30px;
+      line-height: 36px;
+      color: #50626C;
+    }
+  }
+
+  /*big-boat............................................................*/
+  .big-boat {
+    background: #50626C;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 29px;
+    margin-left: 126px;
+    margin-right: 126px;
+  }
+  .boat-one {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .boat-text {
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 25px;
+  }
+  .big-boat-one {
+    max-width: 100%;
+    padding-left: 318px;
+  }
+  .motor-hidea {
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+  }
+  @media (max-width:767px) {
+    .big-boat {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .big-boat-one {
+      padding-left: 74px;
+    }
+  }
+  /*header-motor , motor-hidea......................................................................................*/
+  .header-motor {
+    font-family: "SF Pro Display";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 23px;
+    color: #363636;
+    margin-left: 140px;
+    margin-top: 104px;
+  }
+  .motor-first {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-right: 35px;
+    margin-left: 170px;
+    padding-top: 40px;
+    padding-left: 50px;
+  }
+  .motor-two {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-right: 35px;
+    padding-top: 40px;
+    padding-left: 50px;
+    margin-top: -32px;
+    margin-bottom: -33px;
+  }
+  .motor-thre {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-right: 35px;
+    padding-top: 40px;
+    padding-left: 50px;
+    margin-right: 170px;
+  }
+  .smoll-smoll-header {
+    font-family: "Gilroy";
+    padding-right: 59px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #50626C;
+  }
+  .motor-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 34px;
+    color: #50626C;
+    padding-left: 6px;
+  }
+  /*questionnaire-name...........................................................................*/
+  .questionnaire-name {
+    margin-top: 102px;
+    width: 440px;
+    height: 454px;
+    left: 240px;
+    top: 4172px;
+    background: #FFFFFF;
+    border: 1px solid #E4E5E4;
+    margin-left: 240px;
+  }
+  .name_big {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    color: #606060;
+    text-align: center;
+    padding-top: 46px;
+  }
+  .name-text {
+    padding-left: 23px;
+  }
+  .text-questionnaire {
+    width: 394px;
+    height: 66px;
+    left: 263px;
+    top: 4297px;
+    border: 1px solid #E4E5E4;
+    align-items: center;
+  }
+  .name {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #606060;
+    padding-left: 25px;
+  }
+  .email {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #606060;
+    padding-left: 25px;
+  }
+  .add {
+    width: 393.65px;
+    height: 65.76px;
+    left: 263.42px;
+    top: 4517px;
+    background: #50626C;
+    margin-top: 24px;
+  }
+  .questionnaire-photo {
+    margin-left: 563px;
+    margin-top: -362px;
+  }
+  .band {
+    height: 0px;
+    color: solid #A4A4A4;
+    margin-top: 105px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 118px;
+  }
+  @media (max-width:767px) {
+    .questionnaire-photo {
+      display: none;
+    }
+    .questionnaire-name {
+      margin-left: 180px;
+    }
+  }
+  /*beatmotors ......................................................................*/
+  .beatmotors {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 205px;
+    margin-right: 205px;
+  }
+  .beatmotors-info-one {
+    list-style: none;
+  }
+  .beatmotors-info-two {
+    list-style: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+    color: #363636;
+  }
+  .beatmotors-info-one {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+    color: #363636;
+  }
+  .beatmot_footer {
+    margin-left: 81px;
+    padding-top: 14px;
+  }
+  .info_shop {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 23px;
+    color: #363636;
+    padding-bottom: 26px;
+  }
+  .beatmot_center {
+    display: grid;
+    grid-gap: 14px;
+  }
+  .mini_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #363636;
+  }
+  .beatmot_ctalog {
+    display: grid;
+    grid-gap: 14px;
+  }
+  .catalog_mini_text {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 23px;
+    color: #363636;
+    padding-bottom: 26px;
+  }
+  .text_mini_news {
+    margin-left: 602px;
+  }
+  .text_news {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #363636;
+    padding-bottom: 30px;
+  }
+  .mini_news-site {
+    margin-left: -31px;
+    margin-bottom: 147px;
+  }
+  @media (max-width:767px) {
+    .beatmotors {
+      margin-left: 0px;
+    }
+    .beatmot_center {
+      display: grid;
+      grid-gap: 18px;
+    }
+    .mini_text {
+      margin-left: 50px;
+    }
+    .catalog_mini_text {
+      margin-left: 50px;
+    }
+    .text_mini_news {
+      display: none;
+    }
+  }
+  /*footer_big................................................................................*/
+  .footer_big {
+    height: 105px;
+    left: 0px;
+    top: 5354px;
+    background: #001420;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 203px;
+    padding-right: 211px;
+  }
+  .arrow {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+  }
+  .site_motorsboat {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+  }
